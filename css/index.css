@@ -1,0 +1,221 @@
+@import url(/css/form.css);
+
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.top-navegation-bar{
+    background-color: #d65b5b;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.top-navegation-bar a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 20px;
+    padding:10px;
+    transition: .35s;
+}
+
+.top-navegation-bar a:hover{
+    border-bottom: 1px solid white;
+    padding:10px 25px;
+}
+
+.esp-button{
+    padding: 15px 20px;
+    background-color: #b93f3f;
+    color: white;
+    border-radius: 5px;
+}
+
+.sign-up{
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    background-color: #ff746a;
+}
+
+.Premium{
+    transition: .35s;
+}
+
+.Premium:hover{
+    animation: rainbow 2s infinite;
+}
+
+
+/* main banner */
+
+.main-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-image:url(/img/background.jpg) ;
+}
+
+.main-banner h1{
+    font-style: italic;
+    color: white;
+    font-size: 80px;
+    margin: 0px;
+}
+
+/* Marketing or smth */
+
+.central{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.central img{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #b1b1b1;
+}
+
+.context{
+    padding: 25px;
+    width: 350px;
+}
+
+.context p{
+    color: gray;
+}
+
+.gen-div{
+     display: flex;
+
+}
+
+.tnw{
+    filter: grayscale(1);
+}
+
+.quote{
+    display: flex;
+    height: 50px;
+}
+
+.quote .pfp{
+    border-radius: 50px;
+    width: 50px;
+}
+
+/* Marketing or smth part 2 */
+
+.esp-central{
+    background-color: #ececec;
+        margin-top: 50px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.note{
+    margin: 10px;
+    width: 200px;
+}
+
+.note a{
+    color: #d65b5b;
+}
+
+.note P{
+    color: grey;
+}
+
+.note img{
+    width: 200px;
+}
+
+/* Marketing or smth part 3 */
+
+.blackish-central{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px 0px;    
+    background-color: #31303a;
+}
+
+.blackish-central p{
+    color: white;
+}
+
+.button{
+    border-radius: 10px;
+    color:black;
+    background-color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+
+}
+
+.align-text{
+    margin: 25px;
+    text-align: center;
+}
+
+.align-text h2{
+    color: white;
+    font-size: 30px;
+}
+
+/* Marketing or smth part 4 */
+
+/* recommendation part */
+
+
+
+/* keyframes */
+
+@keyframes rainbow{
+    0% {
+        color: purple;
+    }
+
+    20%{
+        color: red;
+    }
+
+    28%{
+        color: orange;
+    }
+
+    42%{
+        color: yellow;
+    }
+
+    57%{
+        color: greenyellow;
+    }
+
+    71%{
+        color: blue; 
+    }
+
+    85%{
+        color: indigo;
+    }
+
+    100%{
+        color: purple;
+    }
+}
