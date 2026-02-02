@@ -4,9 +4,9 @@ let name = "";
 
 name = prompt("What is your name?")
 
-    while( name == "" || !name ){
-        alert("Place a valid name please")
-        prompt("What is your name?")
-    }
+    while(!name || !name.trim()){
+    alert("Please enter a valid name")
+    name = prompt("What is your name?")
+}
 
-text.textContent = "Welcome " + name
+text.textContent = "Welcome" + name
