@@ -9,4 +9,4 @@ name = prompt("What is your name?")
     name = prompt("What is your name?")
 }
 
-text.textContent = "Welcome" + name
+text.textContent = "Welcome " + name
