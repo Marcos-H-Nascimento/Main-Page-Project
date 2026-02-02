@@ -2,8 +2,11 @@ const text = document.getElementById("UserName");
 
 let name = "";
 
-while(!name.trim()){
-    name = prompt("What is your Username?");
-}
+name = prompt("What is your name?")
+
+    while( name == "" || !name ){
+        alert("Place a valid name please")
+        prompt("What is your name?")
+    }
 
 text.textContent = "Welcome " + name
